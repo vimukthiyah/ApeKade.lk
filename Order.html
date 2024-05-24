@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Us - Apeකඩේ.lk</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo">
+                <a href="./index.html" class="logo-link">
+                    <img src="./Logo 2.png" alt="Apeකඩේ.lk Logo" class="logo-img">
+                </a>
+            </div>
+            <nav class="navlinks">
+                <ul>
+                    <li><a href="./index.html" >Home</a></li>
+                    <li><a href="./About Us.html">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Products</a>
+                        <div class="dropdown-content">
+                            <a href="./Dairy Products.html">Dairy Products</a>
+                            <a href="./Vegetables.html">Vegetables</a>
+                            <a href="./Cosmetics.html">Cosmetics</a>
+                        </div>
+                    </li>
+                    <li><a href="./Order.html"class="active">Order</a></li>
+                    <li><a href="./Loyalty.html">Loyalty</a></li>
+                </ul>
+            </nav>
+        </header>    
+    <section class="order-container">
+        <div class="order-details">
+            <h2>Order Details</h2>
+            <form action="#" method="POST" class="order-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact">Contact Number:</label>
+                    <input type="tel" id="contact" name="contact" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address:</label>
+                    <textarea id="address" name="address" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="product">Product:</label>
+                    <input type="text" id="product" name="product" required>
+                </div>
+                <div class="form-group">
+                    <label for="quantity">Quantity:</label>
+                    <input type="text" id="quantity" name="quantity" required>
+                </div>
+            </form>
+        </div>
+
+        <div class="payment-details">
+            <h2>Payment Details</h2>
+            <form action="#" method="POST" class="payment-form">
+                <div class="form-group">
+                    <label for="card-number">Card Number:</label>
+                    <input type="text" id="card-number" name="card-number" required>
+                </div>
+                <div class="form-group">
+                    <label for="expiry-date">Expiry Date:</label>
+                    <input type="text" id="expiry-date" name="expiry-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="cvv">CVV:</label>
+                    <input type="text" id="cvv" name="cvv" required>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    <div class="submit-container">
+        <button class="submit-button">Submit Order</button>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="logo2">
+                <img src="./Logo 2.png" alt="Logo">
+            </div>
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <ul>
+                    Kiribathgoda | Galle | Kandy</br>
+                    Email: cs@apekade.lk.com</br>
+                    Phone: 123-456-7890</br>
+                </ul>
+            </div>
+            <div class="follow-us">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/"><img src="./Images/facebook-app-round-white-icon.webp" alt="Facebook"></a></li>
+                    <li><a href="https://www.twitter.com/"><img src="./Images/Instagram_logo.png" alt="Twitter"></a></li>
+                    <li><a href="https://www.instagram.com/"><img src="./Images/64cebe1d31f50e161e4c825a_X-logo-transparent-white-twitter.png" alt="Instagram"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
